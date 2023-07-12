@@ -1,0 +1,48 @@
+body {
+    background-color: #a787a8;
+}
+
+#heading_div {
+    padding-top: 90px;
+    text-align: left;
+    background: #FFD300;
+    bottom: 0;
+}
+
+#heading_div h1 {
+    color: black;
+    font-family: 'Roboto';
+    font-size: 120px;
+}
+
+#main_div {
+    margin-top: 100px;
+}
+
+#main_div button, #main_div button:hover {
+    background-color: whitesmoke;
+    font-size: 35px;
+    font-family: 'Roboto';
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 30%;
+    font-weight: bold;
+}
+
+#result_label, #result_accuracy {
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.copyright_footer {
+    position: fixed;
+    color: #6c757d;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color: #f5f5f5;
+    font-family: cursive;
+    text-align: center;
+    font-weight: bold;
+}
